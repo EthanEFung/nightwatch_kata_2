@@ -1,0 +1,26 @@
+{
+  "name": "nightwatch_kata_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controllers.js",
+  "scripts": {
+    "test": "nightwatch -e default,chrome,opera,safari",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanEFung/nightwatch_kata_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanEFung/nightwatch_kata_2/issues"
+  },
+  "homepage": "https://github.com/EthanEFung/nightwatch_kata_2#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nightwatch": "^0.9.21",
+    "nodemon": "^1.17.3"
+  }
+}
